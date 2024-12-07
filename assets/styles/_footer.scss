@@ -112,9 +112,24 @@ footer {
     }
 }
 
+@media (721px <=width <=1920px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 15px;
+    }
 
+    .footer-card {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 10px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
 
-@media (426px <=width <=1279px) {
+@media (426px <=width <=720px) {
     .footer {
         display: flex;
         flex-direction: column;
@@ -133,7 +148,7 @@ footer {
 
 /*mobile*/
 
-@media(320px <=width <=425px) {
+@media(0px <=width <=425px) {
     .footer {
         display: flex;
         flex-direction: column;
